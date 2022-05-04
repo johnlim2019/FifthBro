@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background"
+    tools:context=".ActivityBooking"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/CurrentBookingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_gravity="top"
+        android:textColor="@color/white"
+        />
+    
+    <ListView
+        android:id="@+id/CurrentBookings"
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        />
+    
+    <Button
+        android:id="@+id/SelStartTiming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:text="Select Start"
+        android:backgroundTint="@color/light_foreground"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/SelEndTiming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select End"
+        android:backgroundTint="@color/light_foreground"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Time:"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/PrintTiming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Time:"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/PrintTiming2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/bookNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Now"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/light_foreground"
+        />
+
+    <Button
+        android:id="@+id/doneBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/light_foreground"
+        />
+
+</LinearLayout>
